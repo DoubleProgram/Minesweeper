@@ -3,8 +3,10 @@
 #include "External.h"
 #include "Map.h"
 #include <time.h>
+
 bool Play();
 extern Cell* map;
+
 int main(){
     srand(time(NULL));
     ShowsCursor(false);
@@ -34,6 +36,7 @@ int main(){
 
     return 0;
 }
+
 bool Play(){
     while (true){
         switch (getch()){
@@ -43,10 +46,3 @@ bool Play(){
         }
     }
 }
-
-
-
-
-
-
-
