@@ -39,4 +39,5 @@ void SetColor(int8_t ForgC);
 void cColoredPrint(int16_t y,int16_t x,char c,Color color);
 void sPrint(int16_t y,int16_t x, char* s,Color color);
 void Print(const Object object);
+
 #endif
